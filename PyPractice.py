@@ -5,6 +5,8 @@ from flask import Flask
 # typically __name__ when using a single module.
 app = Flask(__name__)
 
+# Harsh And Vivek Project
+
 
 # Flask route decorators map / and /hello to the hello function.
 # To add other resources, create functions that generate the page contents
@@ -21,6 +23,7 @@ def hello():
 
 if __name__ == '__main__':
 
-        """Run the app server on localhost:4449
-        #from waitress import serve
-        #serve(app, host="0.0.0.0", port=8080)"""
+    """Run the app server on localhost:4449"""
+
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=8080)
