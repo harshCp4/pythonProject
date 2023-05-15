@@ -3,7 +3,7 @@
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 #app_location: "/"    # The app source code is in the root directory for the repo
 #api_location: ""     # There is no API that needs to be configured
-output_location: "/" # my index.html file is in the root directory for the repo
+output_location: "./" # my index.html file is in the root directory for the repo
 
 name: Build and deploy Python app to Azure Web App - SimplePy
 
