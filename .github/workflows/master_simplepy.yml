@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'SimplePy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2FB02008BE2B499781E60C634EE443FF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9EAA2BDCF15A443496BA524F367C7BD3 }}
