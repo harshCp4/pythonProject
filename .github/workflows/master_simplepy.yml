@@ -61,3 +61,4 @@ jobs:
           app-name: 'SimplePy'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9EAA2BDCF15A443496BA524F367C7BD3 }}
+output_location: "./"
