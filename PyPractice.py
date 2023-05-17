@@ -15,10 +15,10 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/hello')
 def hello():
-    print("Hello! I am PyApp!")
-    a = input("What's your name? : ")
-    b = str("Hey! Welcome " + a + "! You're Awesome!")
-    return b
+    # print("Hello! I am PyApp!")
+    # a = input("What's your name? : ")
+    # b = str("Hey! Welcome " + a + "! You're Awesome!")
+    return "Hello! Welcome to Simpl_Py_App!"
 
 # """Run the app server on localhost:4449"""
 # from waitress import serve
